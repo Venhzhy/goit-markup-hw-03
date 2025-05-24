@@ -62,7 +62,7 @@ address {
     border-bottom: 1px solid #e7e9fc
 }
 
-.header-container {
+.header .container {
     display: flex;
     align-items: center;
     padding-top: 24px;
@@ -309,6 +309,7 @@ address {
 .portfolio-container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 /* Footer */
