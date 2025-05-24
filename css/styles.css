@@ -34,7 +34,8 @@ h6 {
 
 .container {
     width: 1158px;
-    padding: 0 15px 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 
@@ -225,7 +226,9 @@ address {
 }
 
 .team-items {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-title {
@@ -246,8 +249,7 @@ address {
 
 .team-container {
     text-align: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0;
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -255,8 +257,6 @@ address {
 .team-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio {
@@ -280,12 +280,12 @@ address {
     flex-wrap: wrap;
     gap: 24px;
     padding: 0;
-        list-style: none;
-        margin: 0;
-        row-gap: 48px;
+    list-style: none;
+    margin: 0;
+    row-gap: 48px;
 }
 
-.portfolio-list li {
+.portfolio-items {
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
     flex-basis: calc((100% - 48px) / 3);
