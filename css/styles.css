@@ -59,8 +59,6 @@ address {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header .container {
@@ -85,6 +83,9 @@ address {
 }
 
 .header-navigation-menu {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
